@@ -1,0 +1,5 @@
+gymnasium==0.29.1
+stable-baselines3==2.2.1
+ortools==9.8.3296
+gurobipy==11.0.0
+numpy==1.26.4
