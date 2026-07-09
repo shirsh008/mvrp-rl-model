@@ -1,33 +1,33 @@
-# MVRP: Multiple Vehicle Routing Problem
+MVRP: Multiple Vehicle Routing Problem
 
-## Overview
-This repository contains an optimization model developed to route a vehicle fleet. The primary goal is to minimize travel costs and time while adhering strictly to capacity and distance constraints[cite: 1].
-
----
-
-## Problem Statement
-Unoptimized multi-vehicle routing causes uneven load distribution, delayed deliveries, and inflated fuel costs[cite: 1]. 
+Overview
+This repository contains an optimization model developed to route a vehicle fleet. The primary goal is to minimize travel costs and time while adhering strictly to capacity and distance constraints.
 
 ---
 
-## Solution 
-I built an automated model to dynamically assign and sequence delivery nodes[cite: 1]. This ensures that the model chooses the optimal path across the entire fleet[cite: 1].
+Problem Statement
+Unoptimized multi-vehicle routing causes uneven load distribution, delayed deliveries, and inflated fuel costs. 
 
 ---
 
-## Methods
-* Applied Mixed-Integer Programming (MIP) to compute optimal solutions[cite: 1].
-* Utilized Python-based heuristics, specifically OR-Tools and Gurobi, for mathematical modeling[cite: 1].
-* Designed a custom Reinforcement Learning (RL) environment[cite: 1].
-* Integrated the RL environment with MIP heuristics to handle complex, large-scale constraints[cite: 1].
+Solution 
+I built an automated model to dynamically assign and sequence delivery nodes. This ensures that the model chooses the optimal path across the entire fleet.
 
 ---
 
-## Results
-* The implemented model significantly reduced the overall travel distance[cite: 1]. 
-* The project demonstrated a highly efficient and programmatic approach to dealing with dynamic routing problems in traffic engineering[cite: 1].
+Methods
+* Applied Mixed-Integer Programming (MIP) to compute optimal solutions.
+* Utilized Python-based heuristics, specifically OR-Tools and Gurobi, for mathematical modeling.
+* Designed a custom Reinforcement Learning (RL) environment.
+* Integrated the RL environment with MIP heuristics to handle complex, large-scale constraints.
 
 ---
 
-## Installation & Execution
+Results
+* The implemented model significantly reduced the overall travel distance. 
+* The project demonstrated a highly efficient and programmatic approach to dealing with dynamic routing problems in traffic engineering.
+
+---
+
+Installation & Execution
 Clone the repository and install the required dependencies:
